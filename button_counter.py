@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO
 import time
-GPIO.setmode(GPIO.BOARD)
+GPIO.setmode(GPIO.BOARD) #set gpio by board mode
 GPIO.setup(12, GPIO.IN) #set pin 12 as input
 time_pressed = 0
 counter = 0
